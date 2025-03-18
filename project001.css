@@ -3,26 +3,35 @@
     margin: 0px;
     }
     body{
-        height:500vh;
-        width:98vw;
-    }
-    .container{
-        height:500vh;
-        width:98vw;
-        background-color: aqua;
+        /* never use such styling for fixed height or width */
+        /* height:500vh; */ 
+        /* width:98vw; */
+        height: 100%;
+        width : 100%;
     }
     .navbar{
-        height:10vh;
-        width:98vw;
+        /* never use such styling for fixed height or width */
+        /* height:500vh; */ 
+        /* width:98vw; */
+        height: 100%;
+        width : 100%;
         background-color: black;
         /* position: fixed; */
     }
     .main-navbar{
-        position: absolute;
+        background-color: black;
+
+        /* no need for positioning here */
+
+        /* position: absolute;
         left: 10px;
-        top: 2px;
+        top: 2px; */
+
         height:8.5vh;
-        width:96vw;
+
+        /* */
+        /* width:96vw; */
+        width:100%;
         justify-items: center;
     }
     select{
